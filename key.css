@@ -1,0 +1,61 @@
+.but {
+    display: block;
+    margin-bottom: 5px;
+    border-radius:2px;
+    border-color:balck;
+    border-width: 1px;
+    border-style: solid;
+}
+.big {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.div-image {
+    width: 300px;
+    
+}
+.key1 {
+    display: grid;
+    grid-template-columns:50px 1fr;
+}
+.key2 , .key1 {
+    display: 300px;
+}
+.key3{
+    width: 200px;
+}
+.img22 {
+    width: 50px;
+    
+
+}
+.im2 {
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.im2, .par {
+    display: inline-block;
+}
+.name {
+
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-style: Arial;
+    margin-bottom: 7px;
+}
+
+.view ,.time {
+    color: grey;
+    font-size: small;
+    display: inline-block;
+
+}
+.name:hover {
+    color: rgb(165, 13, 13);
+    cursor: pointer;
+
+}
